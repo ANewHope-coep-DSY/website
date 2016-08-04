@@ -13,6 +13,13 @@ These statements will set the name and email id for your local system and will b
 7)git init
 8)edit the code.
 9)after editing the code, to put it back on github, do follow following steps
-10)git commit -m "message"
-11)git remote add origin https://github.com/ANewHope-coep-DSY/website.git
-12)https://github.com/ANewHope-coep-DSY/website/tree/ongoingWork
+10)git remote add origin https://github.com/ANewHope-coep-DSY/website.git
+11)git checkout -b ongoingWork (this will make a new local repo)(master repo exists no matter what.)
+12)git commit -m "message"
+13)git config --global push.default simple
+14)git push origin ongoingWork
+
+uname:-  anewhopedsy@gmail.com
+pass:- 	 qwerty1@
+15)Done!.
+
